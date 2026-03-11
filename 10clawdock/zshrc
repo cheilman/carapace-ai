@@ -1,0 +1,9 @@
+#!zsh
+#
+# Load clawdock helpers (if present)
+#
+
+if [ -r "$HOME/.clawdock/clawdock-helpers.sh" ]; then
+  source "$HOME/.clawdock/clawdock-helpers.sh"
+fi
+
